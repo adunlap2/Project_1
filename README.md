@@ -50,41 +50,16 @@ My initial assumption was that there would be an overall trend of anime being ra
 There were a few limitations to my approach and data set. The data set was derived from an anime and manga fan site, so the population polled was already predisposed to like anime and manga and the rankings probably couldn’t be taken as objective indicators of quality so much as personal preference. The way I combined the data sets also did not account for adaptations that had similar but not identical titles. There were also some manga which were adaptations of the anime of the same title, rather than the other way around, though they were in the minority.
 
 **Ariana: Do people are for anime shows that have been around longer?
-Going through the Data
--	The data set only focuses on Anime’s that have a Manga adaptation. 
-  o	This being a very concentrated genre of Anime eliminates any anime’s that have been out for longer period but does not have a Manga. 
-  o	Our focus for doing this was to be able to merge the two data sets into one section. 
--	For my Data Graph’s, I narrowed down my data set to looking at the topmost popular 20 Anime’s. 
-  o	By doing this I am looking at a smaller data set which could skew the results looking at an even smaller pool. 
-  o	My goal for doing this is to focus on the topmost popular and be able to nicely display the data. 
--	Going through the ‘Aired Date’ data I found that there were bunch of dates that were not complete, indicating that those shows were ongoing. 
-  o	I then created a column that shows status of whether the show is still ongoing or has been completed. 
-  o	My goal was to be able to organize which anime’s were still ongoing. 
-  o	The Formulas I found to be also sorted and add these columns came from Anime & Manga: EDA + insights dataset. 
--	I had some trouble converting the date from an object to integer, so I had to look at the date data in more of side by side to other data, rather than doing direct comparison. 
-  o	In the future, looking into CSV files where the pandas can read and nicely delaminate the dates.
--	I then narrowed the columns the to focus on the categories that most effect my data. 
-  o	Title 
-  o	Adaptation Type 
-  o	Aired Date 
-  o	Anime Votes 
-
-First Graph
--	I compared the Aired Date vs the Aired Status. From this graph, I wanted to display side by side a visual the compares the number votes to the air dates and air status.
-  o	Results 
-    	Most people favored anime’s that have already been completed. 
-    	The most voted anime’s were anime’s that started 2014-2016
-  o	Conclusion
-    	More people enjoy anime’s that have already been completed. 
-    	A majority of people voted positively towards anime’s in the middle.
+Data Exploration:
+The data set only focuses on Anime’s that have a Manga adaptation. This being a very concentrated genre of Anime eliminates any anime’s that have been out for longer period but does not have a Manga. Our focus for doing this was to be able to merge the two data sets into one section. 
+For my Data Graph’s, I narrowed down my data set to looking at the topmost popular 20 Anime’s. 	By doing this I am looking at a smaller data set which could skew the results looking at an even smaller pool. 	My goal for doing this is to focus on the topmost popular and be able to nicely display the data. 
+Going through the ‘Aired Date’ data I found that there were bunch of dates that were not complete, indicating that those shows were ongoing. I then created a column that shows status of whether the show is still ongoing or has been completed. My goal was to be able to organize which anime’s were still ongoing. The Formulas I found to be also sorted and add these columns came from Anime & Manga: EDA + insights dataset. 
+I had some trouble converting the date from an object to integer, so I had to look at the date data in more of side by side to other data, rather than doing direct comparison. In the future, looking into CSV files where the pandas can read and nicely delaminate the dates.
+I then narrowed the columns the to focus on the categories that most effect my data. The columns of my data being: Title, Adaptation Type, Aired Date, Anime Votes.
+First Graph:
+I compared the Aired Date vs the Aired Status. From this graph, I wanted to display side by side a visual the compares the number votes to the air dates and air status. I found that most people favored anime’s that have already been completed, and  the most voted anime’s were anime’s that started 2014-2016. From this I concluded more people enjoy anime’s that have already been completed, and a majority of people voted positively towards anime’s in the middle.
 Second Graph
--	I used another bar graph to directly compare the member votes to the Titles. I then labeled the dates to give an idea of when these anime’s came out. 
-  o	Results 
-    	Shingeki no Kyojin, Death Note, and Boku no Hero Academia were the top 3 most popular anime’s. 
-    	Based on the dates each of the anime’s came out I didn’t not have a strong enough correlation from the start date and popularity
+I used another bar graph to directly compare the member votes to the Titles. I then labeled the dates to give an idea of when these anime’s came out. I found that Shingeki no Kyojin, Death Note, and Boku no Hero Academia were the top 3 most popular anime’s. Additionally, based on the dates each of the anime’s came out I didn’t not have a strong enough correlation from the start date and popularity
 Third Graph 
--	Based on the two first graphs, I wanted to look popularity adaptations.  
-  o	Results- 
-    	I found that the TV adaptations we more favorable by 78%.
-    	I was surprised to see that OVA’s were 4% more popular that Movies. I thought that movies would be more liked. 
+Based on the two first graphs, I wanted to look popularity adaptations.	I found that the TV adaptations we more favorable by 78%. I was surprised to see that OVA’s were 4% more popular that Movies. I thought that movies would be more liked. 
 
