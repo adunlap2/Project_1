@@ -2,6 +2,9 @@
 
 Data used: https://www.kaggle.com/datasets/nikhil1e9/myanimelist-anime-and-manga showing scraped user rankings from https://myanimelist.net/
 
+**Jordan: Does Amount of Volumes in a Manga Effect Popularity?
+
+
 **Rachel: Do People Like Anime Adaptations?** 
 
 I began by merging our anime and manga data by title, which created a dataset of anime and manga that had the same title. This did not contain every adaptation in both lists, as some adaptations have different titles, but still left me with 2700+ titles to compare data on. I also dropped the columns with hyperlinks to pictures since that would not be useful for this project. 
