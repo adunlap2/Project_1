@@ -1,7 +1,7 @@
 # Project_1
 Manga and Animme Analysis
 
-Manga and Anime have taken huge popularity not only in Japan, but globally. In the United States, the value of the Anime industry is currently sitting above $4 billion. With the gorwht of mass appeal to anime and manga, it's clear that these art forms have taken a strong hold in American media. 
+Manga and Anime have taken huge popularity not only in Japan, but globally. In the United States, the value of the Anime industry is currently sitting above $4 billion. With the growth of mass appeal to anime and manga, it's clear that these art forms have taken a strong hold in American media. 
 In this data exploation and visualization project, we will delve into a data set of over 13,000 different anime's and manga's respectively, to explore various questions. 
 
 Data used: https://www.kaggle.com/datasets/nikhil1e9/myanimelist-anime-and-manga showing scraped user rankings from https://myanimelist.net/
